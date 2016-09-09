@@ -1,0 +1,22 @@
+{
+  "name": "https_pruebas",
+  "version": "1.0.0",
+  "description": "htps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dark6010/ex4.git"
+  },
+  "author": "grover plaza quiroga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dark6010/ex4/issues"
+  },
+  "homepage": "https://github.com/dark6010/ex4#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
