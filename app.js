@@ -6,7 +6,7 @@ app.get("/", function(request, response) {
  response.send("Welcome to ghost’s homepage!");
 });
 var httpsOptions = {
- key: fs.readFileSync("https/sample.key"),
- cert: fs.readFileSync("https/sample.crt")
+ key: fs.readFileSync("https/jiko.key"),
+ cert: fs.readFileSync("https/jiko.crt")
 };
 https.createServer(httpsOptions, app).listen(3000); 
