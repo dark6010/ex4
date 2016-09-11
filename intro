@@ -1,4 +1,3 @@
- https://www.openssl.org/related/binaries.html.
-https://letsencrypt.org/certificates/
+https://slproweb.com/products/Win32OpenSSL.html
 openssl genrsa -out privatekey.pem 1024
 openssl req -new -key privatekey.pem -out request.pem
