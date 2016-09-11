@@ -9,4 +9,5 @@ var httpsOptions = {
  key: fs.readFileSync("https/jiko.key"),
  cert: fs.readFileSync("https/jiko.crt")
 };
+//http.createServer(app).listen(80);
 https.createServer(httpsOptions, app).listen(3000); 
